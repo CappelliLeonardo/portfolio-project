@@ -1,4 +1,5 @@
 <script>
+import gsap from "gsap";
 export default {
     data() {
         return {
@@ -7,12 +8,15 @@ export default {
     },
     methods: {
 
-    }
+    },
+    mounted() {
+        gsap.to(".animation", { duration: 1, x: 400 });
+    },
 }
 </script>
 
 <template>
-    <header>
+    <header class="animation">
         HEADER
     </header>
 </template>
