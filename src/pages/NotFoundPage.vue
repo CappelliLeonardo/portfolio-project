@@ -12,9 +12,9 @@ export default {
 </script>
 
 <template>
-    <main>
-        <router-view></router-view>
-    </main>
+    <div>
+        Not Found Page
+    </div>
 </template>
 
 <style lang="scss" scoped>

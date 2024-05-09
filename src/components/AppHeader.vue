@@ -17,7 +17,20 @@ export default {
 
 <template>
     <header class="animation">
-        HEADER
+        <ul class=" list-unstyled">
+            <li>
+                <router-link :to="{name:'Home'}" >Home</router-link>
+            </li>
+            <li>
+                <router-link :to="{name:'About'}" >About</router-link>
+            </li>
+            <li>
+                <router-link :to="{name:'Contact'}" >Contact</router-link>
+            </li>
+            <li>
+                <router-link :to="{name:'Projects'}" >Projects</router-link>
+            </li>
+        </ul>
     </header>
 </template>
 

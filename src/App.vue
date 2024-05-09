@@ -26,14 +26,9 @@ export default {
 </script>
 
 <template>
-    <h1>
-        Mia App
-    </h1>
-
+   
     <AppHeader />
-
     <AppMain />
-
     <AppFooter />
 </template>
 
