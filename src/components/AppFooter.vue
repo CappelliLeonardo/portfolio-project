@@ -7,15 +7,19 @@ export default {
     },
     methods: {
 
-    }
+    },
+    
 }
 </script>
 
 <template>
     <footer>
-        FOOTER
+        <div class="container">
+           Questo è il footer
+        </div>   
     </footer>
 </template>
 
 <style lang="scss" scoped>
+
 </style>
