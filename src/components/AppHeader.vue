@@ -85,6 +85,14 @@ export default {
   font-weight:600;
   cursor:pointer;
 }
+header{
+    .container{
+        nav{
+            z-index: 9999;
+        }
+    }
+}
+
 nav {
   position: absolute;
   top:50%;
@@ -99,7 +107,7 @@ nav {
   position:relative;
   margin: 40px 20px;
   float:left;
-  z-index: 9999;
+
 }
 button{
   position:relative;
