@@ -61,18 +61,18 @@ export default {
     data(){
         return{
             technologies:[
-                '/public/Img/bootstrap.svg',  
-                '/public/Img/css3-alt.svg',
-                '/public/Img/database-solid.svg',
-                'public/Img/git-alt.svg',
-                'public/Img/github-142-svgrepo-com.svg',
-                'public/Img/html5.svg',
-                'public/Img/js.svg',
-                'public/Img/laravel.svg',
-                'public/Img/mysql-svgrepo-com.svg',
-                'public/Img/php.svg',
-                'public/Img/sass.svg',
-                'public/Img/vuejs.svg',
+                '/Img/bootstrap.svg',  
+                '/Img/css3-alt.svg',
+                '/Img/database-solid.svg',
+                '/Img/git-alt.svg',
+                '/Img/github-142-svgrepo-com.svg',
+                '/Img/html5.svg',
+                '/Img/js.svg',
+                '/Img/laravel.svg',
+                '/Img/mysql-svgrepo-com.svg',
+                '/Img/php.svg',
+                '/Img/sass.svg',
+                '/Img/vuejs.svg',
             ]
         }
     }
@@ -83,7 +83,6 @@ export default {
 <template>
 
     <footer>
-        <div class="container">
             <swiper
                 :spaceBetween="30"
                 :centeredSlides="true"
@@ -92,24 +91,28 @@ export default {
                     disableOnInteraction: false,
                 }"
                 :modules="modules"
-                :slidesPerView="4"
+                :slidesPerView="5"
                 :initialSlide="4"
                 effect="slide"
-                :speed="3000"
+                :speed="2000"
                 loop
                 class="mySwiper">
-                <swiper-slide v-for="(tech, i) in technologies" :key="i">
+                <swiper-slide v-for="(tech, i) in technologies" :key="i" class="d-flex justify-content-center ">
                     <div class="img-container">
                         <img :src="tech" alt="">
                     </div>
                 </swiper-slide>
             </swiper>
-        </div>
+            <div class="container footer-bottom d-flex justify-content-center align-items-center">
+                <p class="m-0">
+                    © Leonardo Cappelli 2024 // Made with <i class="fa-solid fa-heart"></i>
+                </p>
+            </div>
     </footer>
     
   </template>
 
-<style lang="scss" scoped>
+<style lang="scss"scoped>
 .img-container{
     width: 75px;
     height:75px;
@@ -120,7 +123,11 @@ export default {
         height:100%;
     }
 }
-.mySwiper{
-    border:1px solid black
+.footer-bottom {
+    height: 50px;
 }
+
+
+
+
 </style>

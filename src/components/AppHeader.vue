@@ -60,8 +60,10 @@ export default {
                         </button>
                     </div>   
                 </nav>
-                <div>
-                    Funzione che conta 
+                <div class=" align-content-center">
+                    <h3>
+                        / Leonardo Cappelli
+                    </h3>
                 </div>
                 <div class="menuButton">
                     <div class="hamburger-menu m-4 ">
@@ -77,15 +79,13 @@ export default {
 
 <style lang="scss" scoped>
 .menuButton{
-  //position:absolute;
-  //top:10px;
-  //left: calc(100% - 200px);
   font-family:sans-serif;
   font-size:24px;
   font-weight:600;
   cursor:pointer;
 }
 header{
+    border-bottom: 1px solid grey;
     .container{
         nav{
             z-index: 9999;
@@ -93,7 +93,7 @@ header{
     }
 }
 
-nav {
+nav{
   position: absolute;
   top:50%;
   left:50%;
