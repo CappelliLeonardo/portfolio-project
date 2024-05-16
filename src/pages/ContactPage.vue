@@ -12,7 +12,7 @@ export default {
 </script>
 
 <template>
-    <div>
+    <div class="prova">
         PAGINA DI CONTATTO
     </div>
 </template>

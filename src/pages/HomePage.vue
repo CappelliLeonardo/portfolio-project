@@ -18,8 +18,8 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-.prova{
-    height: calc(100vh - 194px);
-}
+// .prova{
+//     height: calc(100vh - 200px);
+// }
 </style>
 

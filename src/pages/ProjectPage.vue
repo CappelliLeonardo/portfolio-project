@@ -12,7 +12,7 @@ export default {
 </script>
 
 <template>
-    <div>
+    <div class="prova">
         Pagina progetti
     </div>
 </template>

@@ -12,7 +12,7 @@ export default {
 </script>
 
 <template>
-    <div>
+    <div class="prova">
         Not Found Page
     </div>
 </template>
